@@ -67,6 +67,15 @@ const workerConfig = {
       target: 'https://809098.xyz',
       timeout: 10000,
     },
+     {
+      id: 'qinglong',
+      name: '青龙',
+      // `method` should be `TCP_PING` for tcp monitors
+      method: 'GET',
+      // `target` should be `host:port` for tcp monitors
+      target: 'https://amclubstest-qinglong.hf.space',
+      timeout: 10000,
+    },
   ],
   notification: {
     // [Optional] apprise API server URL
