@@ -74,6 +74,7 @@ const workerConfig = {
       method: 'GET',
       // `target` should be `host:port` for tcp monitors
       target: 'https://amclubstest-qinglong.hf.space',
+      statusPageLink: 'https://amclubstest-qinglong.hf.space',
       timeout: 10000,
     },
   ],
